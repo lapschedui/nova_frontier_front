@@ -1,0 +1,76 @@
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--el-color-white);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mini-button {
+    height: 2vh;
+    /* width: 2vw; */
+    box-shadow:
+        0 0 20px rgb(64, 158, 255, 0.2),
+        inset 0 0 15px rgb(102, 177, 255, 0.4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.small-button {
+    height: var(--button-size-small-height);
+    width: var(--button-size-small-width);
+    margin-left: 0;
+    box-shadow:
+        0 0 20px rgb(64, 158, 255, 0.2),
+        inset 0 0 15px rgb(102, 177, 255, 0.4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.medium-button {
+    height: var(--button-size-medium-height);
+    width: var(--button-size-medium-width);
+    margin-left: 0;
+    box-shadow:
+        0 0 20px rgb(64, 158, 255, 0.2),
+        inset 0 0 15px rgb(102, 177, 255, 0.4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.large-button {
+    height: var(--button-size-large-height);
+    width: var(--button-size-large-width);
+    margin-left: 0;
+    box-shadow:
+        0 0 20px rgb(64, 158, 255, 0.2),
+        inset 0 0 15px rgb(102, 177, 255, 0.4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+    display: flex;
+    /* Включаем Flexbox, выстраивает детей в ряд */
+    flex-direction: row;
+    /* Явно указываем направление — строка */
+    justify-content: space-between;
+    /* Распределяет блоки равномерно по ширине */
+    align-items: flex-start;
+    /* Выравнивает блоки по их верхней границе */
+    /* row-gap: 20px; */
+}
+
+.column {
+    display: flex;
+    /* Включаем Flexbox, выстраивает детей в ряд */
+    flex-direction: column;
+    /* Явно указываем направление — строка */
+    justify-content: space-between;
+    /* Распределяет блоки равномерно по ширине */
+    align-items: flex-start;
+    /* Выравнивает блоки по их верхней границе */
+    gap: 20px;
+}
+
+.glow {
+    box-shadow:
+        0 0 20px rgb(64, 158, 255, 0.6),
+        inset 0 0 15px rgb(102, 177, 255, 0.6);
+}

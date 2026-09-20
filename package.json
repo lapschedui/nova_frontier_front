@@ -1,0 +1,25 @@
+{
+  "name": "nova-frontier",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "apexcharts": "^5.15.0",
+    "element-plus": "^2.14.3",
+    "vue": "^3.5.29",
+    "vue3-apexcharts": "^1.11.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.4",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.6"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
