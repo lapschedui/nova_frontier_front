@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue';
-import HyperDrive from '/hyperDrive.vue';
+import HyperDrive from './hyperDrive.vue';
 
 
 const totalDuration = 6000; // Общее время прыжка
