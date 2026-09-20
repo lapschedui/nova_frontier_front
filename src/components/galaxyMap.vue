@@ -127,7 +127,7 @@ const loadData = (message) => {
 }
 
 .helios-forge {
-    background-image: url('/images/planets/HeliosForge.png');
+    background-image: url('/images/planets/nebula.png');
     grid-column: 14 / span 2;
     grid-row: 2 / span 2;
 }
@@ -163,13 +163,13 @@ const loadData = (message) => {
 }
 
 .cluster-of-asteroids-two {
-    background-image: url('/images/planets/cluster-of-asteroids-two.png');
+    background-image: url('/images/planets/cluster-of-asteroids-one.png');
     grid-column: 11 / span 4;
     grid-row: 4 / span 4;
 }
 
 .cluster-of-asteroids-three {
-    background-image: url('/images/planets/cluster-of-asteroids-three.png');
+    background-image: url('/images/planets/cluster-of-asteroids-one.png');
     grid-column: 6 / span 4;
     grid-row: 7 / span 4;
 }
