@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue';
-import HyperDrive from './hyperDrive.vue';
+import HyperDrive from '/hyperDrive.vue';
 
 
 const totalDuration = 6000; // Общее время прыжка
@@ -15,13 +15,13 @@ function finishJump() {
 }
 
 function moveToHangar() {
-    currentBg.value = new URL('./images/hangar/' + localStorage.now + '.png', import.meta.url).href;
+    currentBg.value = new URL('/images/hangar/' + localStorage.now + '.png', import.meta.url).href;
     disableTransition.value = true;
     isZooming.value = false;
 }
 
 function changeBackground() {
-    currentBg.value = new URL('./images/hyperDrive/finish/' + localStorage.finish + '.png', import.meta.url).href;
+    currentBg.value = new URL('/images/hyperDrive/finish/' + localStorage.finish + '.png', import.meta.url).href;
     isZooming.value = true;
     console.log('change bg to ', localStorage.finish);
     localStorage.now = localStorage.finish;
@@ -33,11 +33,11 @@ function changeBackground() {
 onMounted(() => {
     if (localStorage.start && localStorage.start !== 'undefined') {
         console.log('start is', localStorage.start);
-        currentBg.value = new URL('./images/hyperDrive/start/' + localStorage.start + '.png', import.meta.url).href;
+        currentBg.value = new URL('/images/hyperDrive/start/' + localStorage.start + '.png', import.meta.url).href;
     } else if (localStorage.now && localStorage.now !== 'undefined') {
-        currentBg.value = new URL('./images/hangar/' + localStorage.now + '.png', import.meta.url).href
+        currentBg.value = new URL('/images/hangar/' + localStorage.now + '.png', import.meta.url).href
     } else {
-        currentBg.value = new URL('./images/hangar/AstraNexus.png', import.meta.url).href;
+        currentBg.value = new URL('/images/hangar/AstraNexus.png', import.meta.url).href;
         localStorage.now = 'AstraNexus';
     }
 
@@ -75,7 +75,7 @@ onMounted(() => {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('./images/ships/AstraNexus.png');
+    background-image: url('/images/ships/AstraNexus.png');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
