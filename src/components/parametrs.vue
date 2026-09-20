@@ -18,13 +18,13 @@ let name = localStorage.name;
 
 onMounted(() => {
     if (localStorage.start && localStorage.start !== 'undefined') {
-        emblem.value = new URL('/images/emblems/' + localStorage.start + '.png', import.meta.url).href;
+        emblem.value = new URL(window.location.origin + import.meta.env.BASE_URL + '/images/emblems/' + localStorage.start + '.png', import.meta.url).href;
         now.value = localStorage.start;
     } else if (localStorage.now && localStorage.now !== 'undefined') {
-        emblem.value = new URL('/images/emblems/' + localStorage.now + '.png', import.meta.url).href
+        emblem.value = new URL(window.location.origin + import.meta.env.BASE_URL + '/images/emblems/' + localStorage.now + '.png', import.meta.url).href
         now.value = localStorage.now;
     } else {
-        emblem.value = new URL('/images/emblems/AstraNexus.png', import.meta.url).href;
+        emblem.value = new URL(window.location.origin + import.meta.env.BASE_URL + '/images/emblems/AstraNexus.png', import.meta.url).href;
         now.value = "AstraNexus";
     }
 });
