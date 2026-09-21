@@ -72,7 +72,7 @@ const loadData = (message) => {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-image: url('/images/galaxy_map.png');
+    background-image: url('/images/galaxy_map.webp');
     background-size: cover;
     background-position: center;
     display: grid;
@@ -93,83 +93,83 @@ const loadData = (message) => {
 }
 
 .nebula {
-    background-image: url('/images/planets/nebula.png');
+    background-image: url('/images/planets/nebula.webp');
 }
 
 .astra-nexus {
-    background-image: url('/images/planets/AstraNexus.png');
+    background-image: url('/images/planets/AstraNexus.webp');
     grid-column: 10 / span 5;
     grid-row: 6 / span 5;
 }
 
 .nexoria {
-    background-image: url('/images/planets/Nexoria.png');
+    background-image: url('/images/planets/Nexoria.webp');
     grid-column: 9 / span 3;
     grid-row: 3 / span 3;
 }
 
 .merida {
-    background-image: url('/images/planets/Merida.png');
+    background-image: url('/images/planets/Merida.webp');
     grid-column: 8 / span 1;
     grid-row: 5 / span 1;
 }
 
 .dataforge {
-    background-image: url('/images/planets/DataForge.png');
+    background-image: url('/images/planets/DataForge.webp');
     grid-column: 12;
     grid-row: 4;
 }
 
 .verida {
-    background-image: url('/images/planets/Verida.png');
+    background-image: url('/images/planets/Verida.webp');
     grid-column: 4 / span 3;
     grid-row: 6 / span 3;
 }
 
 .helios-forge {
-    background-image: url('/images/planets/nebula.png');
+    background-image: url('/images/planets/nebula.webp');
     grid-column: 14 / span 2;
     grid-row: 2 / span 2;
 }
 
 .chronos {
-    background-image: url('/images/planets/nebula.png');
+    background-image: url('/images/planets/nebula.webp');
     grid-column: 7 / span 3;
     grid-row: 1 / span 3;
 }
 
 .eridan {
-    background-image: url('/images/planets/nebula.png');
+    background-image: url('/images/planets/nebula.webp');
     grid-column: 15 / span 2;
     grid-row: 5 / span 2;
 }
 
 .lumina {
-    background-image: url('/images/planets/nebula.png');
+    background-image: url('/images/planets/nebula.webp');
     grid-column: 4 / span 2;
     grid-row: 3 / span 2;
 }
 
 .arcadia-prime {
-    background-image: url('/images/planets/nebula.png');
+    background-image: url('/images/planets/nebula.webp');
     grid-column: 16 / span 5;
     grid-row: 6 / span 5;
 }
 
 .cluster-of-asteroids-one {
-    background-image: url('/images/planets/cluster-of-asteroids-one.png');
+    background-image: url('/images/planets/cluster-of-asteroids-one.webp');
     grid-column: 16 / span 4;
     grid-row: 1 / span 4;
 }
 
 .cluster-of-asteroids-two {
-    background-image: url('/images/planets/cluster-of-asteroids-one.png');
+    background-image: url('/images/planets/cluster-of-asteroids-one.webp');
     grid-column: 11 / span 4;
     grid-row: 4 / span 4;
 }
 
 .cluster-of-asteroids-three {
-    background-image: url('/images/planets/cluster-of-asteroids-one.png');
+    background-image: url('/images/planets/cluster-of-asteroids-one.webp');
     grid-column: 6 / span 4;
     grid-row: 7 / span 4;
 }
