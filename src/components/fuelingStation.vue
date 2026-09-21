@@ -4,7 +4,7 @@ import { onMounted, ref } from 'vue';
 let currentBg = ref(); // Фон
 
 onMounted(() => {
-    currentBg.value = new URL(window.location.origin + import.meta.env.BASE_URL + '/images/sections/fuelingStation/' + localStorage.now + '.png', import.meta.url).href;
+    currentBg.value = new URL(window.location.origin + import.meta.env.BASE_URL + '/images/sections/fuelingStation/' + localStorage.now + '.webp', import.meta.url).href;
 }
 )
 </script>
